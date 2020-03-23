@@ -13,10 +13,11 @@
 # limitations under the License.
 # ==============================================================================
 from fastestimator.op.numpyop.meta import OneOf, Sometimes
-from fastestimator.op.numpyop.multivariate import Affine, CenterCrop, Crop, CropNonEmptyMaskIfExists, ElasticTransform,\
-    Flip, GridDistortion, HorizontalFlip, LongestMaxSize, MaskDropout, OpticalDistortion, PadIfNeeded, RandomCrop, \
-    RandomCropNearBBox, RandomGridShuffle, RandomResizedCrop, RandomRotate90, RandomScale, RandomSizedBBoxSafeCrop, \
-    RandomSizedCrop, Resize, Rotate, ShiftScaleRotate, SmallestMaxSize, Transpose, VerticalFlip
+from fastestimator.op.numpyop.multivariate import Affine, CenterCrop, Crop, CropNonEmptyMaskIfExists, \
+    ElasticTransform, Flip, GridDistortion, HorizontalFlip, LongestMaxSize, MaskDropout, OpticalDistortion, \
+    PadIfNeeded, RandomCrop, RandomCropNearBBox, RandomGridShuffle, RandomResizedCrop, RandomRotate90, RandomScale, \
+    RandomSizedBBoxSafeCrop, RandomSizedCrop, Resize, Rotate, ShiftScaleRotate, SmallestMaxSize, Transpose, \
+    VerticalFlip
 from fastestimator.op.numpyop.univariate import CLAHE, Binarize, Blur, ChannelDropout, ChannelShuffle, \
     ChannelTranspose, CoarseDropout, Downscale, Equalize, ExpandDims, FromFloat, GaussianBlur, GaussianNoise, \
     HueSaturationValue, ImageCompression, InvertImg, ISONoise, MedianBlur, Minmax, MotionBlur, MultiplicativeNoise, \

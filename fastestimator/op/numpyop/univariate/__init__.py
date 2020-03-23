@@ -13,6 +13,7 @@
 # limitations under the License.
 # ==============================================================================
 # see a complete list of effects in albumentation page: https://albumentations-demo.herokuapp.com
+from fastestimator.op.numpyop.univariate.binarize import Binarize
 from fastestimator.op.numpyop.univariate.blur import Blur
 from fastestimator.op.numpyop.univariate.channel_dropout import ChannelDropout
 from fastestimator.op.numpyop.univariate.channel_shuffle import ChannelShuffle
@@ -48,6 +49,5 @@ from fastestimator.op.numpyop.univariate.reshape import Reshape
 from fastestimator.op.numpyop.univariate.rgb_shift import RGBShift
 from fastestimator.op.numpyop.univariate.solarize import Solarize
 from fastestimator.op.numpyop.univariate.to_float import ToFloat
-from fastestimator.op.numpyop.univariate.binarize import Binarize
 from fastestimator.op.numpyop.univariate.to_gray import ToGray
 from fastestimator.op.numpyop.univariate.to_sepia import ToSepia
